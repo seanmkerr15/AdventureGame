@@ -6,10 +6,14 @@ import java.util.Scanner;
 
 public class Main {
 
-	public Main(String[] args) throws IOException {
+	public static void main(String[] args) throws IOException {
 		BufferedReader in;
 		String input;
 		String output;
+		
+		System.out.println("Welcome to my Adventure Game!\n You are in " + Rooms.ROOM0);
+		
+		
 		
 		in = new BufferedReader(new InputStreamReader(System.in));
 		do {
